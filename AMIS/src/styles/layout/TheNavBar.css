@@ -1,0 +1,235 @@
+.navbar {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 178px;
+    background-color: #404040;
+}
+
+.navbar .logo__amis {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    justify-content:center;
+}
+
+
+
+
+.amis__menu{
+    height: calc(100vh - 48px);
+    padding-top: 14px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    overflow: auto;
+   z-index: 6;
+}
+
+.amis__menu::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #d4d7dc ; /* or add it to the track */
+  }
+
+
+
+
+
+.amis__menu .menu__items{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.menu__items:hover {
+    background-color: #595959;   
+}
+
+.menu__items:focus{
+    background-color: #595959; 
+}
+.item__icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 16px;
+    background-repeat: no-repeat;
+}
+
+.item__text {
+    margin-left: 16px;
+    color: #ffffff;
+}
+
+/* 
+.router-link-active:active{
+    background-color:#595959;
+} */
+
+
+.menu-item.active_item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: #d4d7dc;
+    opacity: .2;
+    position: absolute;
+}
+/* .expand .menu-item{
+    padding-left: 8px;
+} */
+
+.menu-item.active_item{
+    position: relative;
+    border-left-color: #2ca01c;
+    font-weight: 700;
+}
+.menu-item {
+    line-height: 42px;
+    height: 42px;
+    border-left: 6px solid transparent;
+
+    padding-right: 14px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.menu-item.active_item{
+    position: relative;
+    border-left-color: #2ca01c;
+    font-weight: 700;
+}
+.menu-item.active_item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: #d4d7dc;
+    opacity: .2;
+    position: absolute;
+} 
+
+/* License */
+
+.full__license {
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    height:18px;
+    width: 168px;
+    /* background-color: #2ca01c; */
+  
+
+}
+
+.full__license--size {
+   
+   
+    height:100px;
+   
+}
+
+
+
+
+.license__info--lst {
+    background-image: linear-gradient(180deg,#00a9f2,#00a9f2);
+}
+
+.icon__license--top {
+    position: relative;
+    left: 72px;
+}
+
+.license__info {
+    width: 26px;
+    height: 18px;
+    background-image: linear-gradient(rgb(0, 169, 242), rgb(0, 117, 192));
+    border-top-left-radius: 12.5px;
+    border-top-right-radius: 12.5px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon__license{
+    position: absolute;
+    top: 9px;
+    display: flex;
+    left: 12px;
+    transform: translateX(-50%) translateY(-50%) rotate(180deg);
+}
+
+
+.icon__license--bot{
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+}
+
+
+.icon__license .first__line{
+    width: 6px;
+    background: #fff;
+    height: 2px;
+    border-radius: 1px;
+    transform: translateX(25%) rotate(45deg);
+}
+
+.icon__license .second__line{
+    width: 6px;
+    background: rgb(255, 255, 255);
+    height: -1px;
+    border-radius: 1px;
+    transform: translateX(-25%) rotate(-45deg);
+}
+
+
+.license__content {
+    height: auto;
+}
+
+.license__content {
+    background-image:  linear-gradient(rgb(0, 169, 242), rgb(0, 117, 192));
+    border: 1px solid #fff;
+    height: 90px;
+    border-radius: 4px 4px 0 0;
+    box-sizing: unset;
+}
+
+.license__sub, .license__title {
+    font-size: 12px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.license__title{
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.license__sub, .license__title{
+    font-size: 12px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.license__about{
+    padding-left: 10px;
+    color: #80e3ff;
+    padding-top: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+

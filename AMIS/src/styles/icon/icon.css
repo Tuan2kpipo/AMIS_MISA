@@ -1,0 +1,280 @@
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.icon__prev{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -36px -361px;
+	width: 8px;
+	height: 14px;
+    transform: rotate(270deg);
+}
+
+.icon__search{
+    background:  url('../../assets/img/Sprites.64af8f61.svg')  no-repeat -314px -144px;
+}
+
+/* Navbar*/
+.amis__icon{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -428px -88px;
+}
+
+.amis__logo {
+    /* height: 32px;
+    width: 100px;
+    background: url('../../assets/img/Logo_Module_TiengViet_White.66947422.svg') no-repeat;
+    background-size: contain; */
+
+    height: 38px;
+    width: 100px;
+    background: url("https://actappg2.misacdn.net/img/logo_event_trungthu.090d014b.svg") no-repeat;
+    background-size: contain;
+}
+
+.icon__dashboard {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -31px -1587px;
+}
+
+.icon__sidebar--bank{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -74px -1589px;
+}
+
+.icon__sidebar--cash{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -117px -1590px;
+}
+
+.icon__shopping{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -161px -1589px;
+}
+
+.icon__sale{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -206px -1588px;
+}
+
+.icon__sidebar--invoice{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -248px -1589px;
+}
+
+.icon__sidebar--stock{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -292px -1589px;
+}
+
+.icon__sidebar--tools{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -337px -1590px;
+}
+
+.icon__sidebar--fixed{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -379px -1589px;
+}
+
+.icon__sidebar--tax{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -423px -1591px;
+}
+
+.icon__sidebar--price{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -468px -1590px;
+}
+
+.icon__sidebar--general{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -509px -1590px;
+}
+
+.icon__sidebar--budget{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -423px -1664px;
+}
+
+.icon__sidebar--report{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -546px -1593px;
+}
+
+.icon__sidebar--finance{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -248px -1667px;
+}
+
+
+
+
+/* ICON-MENU THE__HEADER */
+/* Header */
+.icon__sx{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -843px -30px;
+}
+
+.avt__icon{
+    background: url("../../assets/img/avt.jpg") no-repeat -2px -1px;
+    width: 17px;
+    height: 17px;
+    background-size: 51px;
+}
+
+.info__icon{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1372px -361px;
+	width: 8px;
+	height: 14px;
+}
+
+.icon__menu{
+    width: 38px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+.icon__bell--img{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+}
+
+.bell:hover{
+    background-color: #111;
+}
+.icon__bell--img:hover{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -249px -74px;
+    width: 38px;
+    height: 48px;
+
+}
+
+
+.bell:hover::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 9px 22px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    position: absolute;
+    /* bottom: 71px; */
+    /* left: 847px; */
+    top: 48px;
+     border-top: 8px solid #111;
+}
+
+
+.icon__bacham--img{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -568px -30px;
+	width: 24px;
+	height: 24px;
+}
+
+ .icon__bacham--img:hover{
+    cursor: pointer;
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -32px -88px;
+	width: 24px;
+	height: 24px;
+    background-color: #4ea344;
+}
+
+.icon__bacham:hover{
+    background-color: #4ea344;
+}
+
+
+.icon__bacham:hover::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 9px 19px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    position: absolute;
+    /* bottom: 71px; */
+    left: 961px;
+    top: 48px;
+     border-top: 8px solid rgb(44, 160, 28);
+}
+
+.icon__banhrang--img{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -89px -256px;
+	width: 24px;
+	height: 24px;
+    cursor: pointer;
+}
+.icon__banhrang--img:hover{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat  -137px -18px;
+    width: 38px;
+    height: 48px;
+    cursor: pointer;
+    background-color: #111;
+}
+
+.icon__banhrang--img:hover::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 9px 19px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    position: absolute;
+    /* bottom: 71px; */
+    /* left: 847px; */
+    top: 48px;
+     border-top: 8px solid #111;
+}
+
+.icon__mess--img{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -899px -30px;
+	
+}
+
+.icon__mess--img:hover{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -361px -74px;
+    width: 38px;
+    height: 48px;
+    background-color: #111;
+}
+
+.icon__mess--img:hover::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 9px 19px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    position: absolute;
+    /* bottom: 71px; */
+    /* left: 1060\8px; */
+    top: 48px;
+     border-top: 8px solid #111;
+}
+.icon__what--img{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -732px -31px;
+}
+
+.icon__what--img:hover{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -193px -75px;
+    width: 38px;
+    height: 48px;
+    background-color: #111;
+}
+
+.icon__what:hover::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 9px 19px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    position: absolute;
+    /* bottom: 71px; */
+    /* left: 820px; */
+    top: 48px;
+     border-top: 8px solid #111;
+}
+.avt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+}
+
+

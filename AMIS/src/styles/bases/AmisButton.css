@@ -1,0 +1,115 @@
+.btn-add {
+    width: 178px;
+    right: 16px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #2ca01c;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+    .btn-add:hover{
+        background-color: #35bf22;
+    }
+
+    .btn-number{
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+        cursor: pointer;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .btn-number:hover{
+        background-color: #e5e5e5;
+    }
+
+    .btn-number:focus{
+        border: 1px solid #000000;
+    }
+
+.btn-fix{
+    color: #4682b4;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btn-fix:hover{
+    text-decoration: underline;
+}
+
+
+
+.btn-help:hover{
+    background-color: #e5e5e5;
+}
+
+
+.btn-table {
+    padding: 4px 16px 4px 16px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.btn-cancel{
+    height: 40px;
+    padding: 0 16px 0 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+    .btn-cancel:hover{
+        background-color: #e9ebee;
+    }
+
+.btn-save{
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #019160;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+    .btn-save:hover{
+        background-color: #2fbe8e;
+    }
+
+.btn-accept{
+    height: 40px;
+    padding: 0 16px 0 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #019160;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #ffffff;
+    position: absolute;
+    right: 40px;
+}
+
+.btn-accept:hover{
+    background-color: #2fbe8e;
+}
+
+

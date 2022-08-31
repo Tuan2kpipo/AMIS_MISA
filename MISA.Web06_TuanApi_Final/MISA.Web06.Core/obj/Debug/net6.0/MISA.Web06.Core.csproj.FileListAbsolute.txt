@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\bin\Debug\net6.0\MISA.Web06.Core.deps.json
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\bin\Debug\net6.0\MISA.Web06.Core.dll
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\bin\Debug\net6.0\MISA.Web06.Core.pdb
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.dll
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\refint\MISA.Web06.Core.dll
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.pdb
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\ref\MISA.Web06.Core.dll
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.Resources.ResourceVN.resources
+C:\Users\Admin\Desktop\WebApi\MISA.Web06_TuanApi_Final\MISA.Web06.Core\obj\Debug\net6.0\MISA.Web06.Core.csproj.GenerateResource.cache

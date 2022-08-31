@@ -1,0 +1,95 @@
+.amis__header{
+    top: 0;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px 0 10px;
+    background-color:#fff;
+    position: absolute;
+    z-index: 30;
+}
+ 
+.header__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.branch__text span {
+    text-transform: uppercase;
+    margin: 0 10px 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+
+.tooltip__content{
+    margin: 0 10px ;
+
+}
+
+.header__current--db{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    border-radius: 40px;
+    margin-left: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #ebedf0;
+}
+
+.icon__header--current {
+    width: 8px;
+    height: 8px;
+    background-color: #4ea344;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
+.header__current--dbname{
+    padding-left: 7px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all .2s ease;
+    color: #111;
+    cursor: pointer;
+}
+
+.icon__download{
+    margin: 0 0 0 40px;
+}
+.icon__feature--download{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1516px -1342px;
+	width: 36px;
+	height: 36px;
+    cursor: pointer;
+}
+
+
+
+
+.header__left{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.info__text{
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+} 

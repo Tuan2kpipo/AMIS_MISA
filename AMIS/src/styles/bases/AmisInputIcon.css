@@ -1,0 +1,40 @@
+.input__search{
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    height: 32px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.button__icon--search {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -314px -144px;
+	width: 24px;
+	height: 24px;
+    border: none;
+}
+
+.input__iconn:focus{
+    
+    outline-color: #fff;
+    padding: 0 2px;
+
+}
+
+
+.input__iconn {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 196px ;
+    border: none;
+    font-style: italic;
+}
+
+.input__iconn:focus
+{
+    border: none;
+}
+

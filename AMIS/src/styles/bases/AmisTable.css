@@ -1,0 +1,193 @@
+.bg-white{
+    background: #fff;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.m-grid{
+    min-width: 100%;
+}
+
+.m-table{
+    border-spacing: 0;
+    min-width: 100%;
+    background-color: #fff;
+    
+}
+
+.ms-td-multi{
+    background-color: #fff;
+}
+
+.ms-td-employeecode{
+    z-index: 3;
+    position: sticky;
+    left: 50px;
+    background-color: #fff;
+}
+
+.ms-th-employeecode{
+    z-index: 10;
+    position: sticky;
+    left: 50px;
+    background-color: #fff;
+}
+
+
+thead th {
+    position: sticky;
+    top : -86px;
+    height: 38px;
+
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    min-height: 34px;
+    height: 38px;
+    z-index: 2;
+    background-color: #e5e8ec;
+    vertical-align: middle;
+}
+
+.th__ckeckall{
+    z-index: 3;
+    position: sticky;
+    left: 16px;
+    min-width: 40px;
+    width: 40px;
+    max-width: 40px;
+}
+
+.ms-out-left-white-16{
+    min-width: 16px;
+    max-width: 16px;
+    width: 16px;
+    background: #fff;
+    position: sticky;
+    left: 0;
+    border: 0;
+    z-index: 25;
+    padding: 0;
+}
+.ms-out-right-white-30{
+    min-width: 30px;
+    position: sticky;
+    border: none;
+    width: 30px;
+    max-width: 30px;
+    z-index: 25;
+    padding: 0;
+    background: #fff;
+    right: 0;
+}
+
+.dis-contents {
+    display: contents;
+}
+
+.ms-tbody-viewer{
+    background-color: #e5e8ec;
+}
+
+.ms-th-wiget{
+    border-right: none;
+    position: sticky;
+    right: 30px;
+    z-index: 4;
+    border-left: 1px solid #c7c7c7;
+    padding-right: 4px;
+}
+
+
+.ms-th-viewer{
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    min-height: 34;
+    height: 34;
+    position: sticky;
+    background-color: #e5e8ec;
+    vertical-align: middle;
+}
+
+.ms-out-right-grey-30{
+    min-width: 10px;
+    position: sticky;
+    border: none;
+    width: 10px;
+    max-width: 30px;
+    z-index: 25;
+    padding: 0;
+    background: #eceef1;
+    right: -10px;
+}
+
+tbody{
+    background-color: #fff;
+    display: contents;
+}
+
+.ms-td-multi{
+    z-index: 2;
+    position: sticky;
+    left: 16px;
+ 
+}
+
+.ms-td-viewer{ 
+    height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px dotted #c7c7c7;
+    white-space: pre-wrap;
+    
+}
+
+.ms-tr-viewer{
+    background-color: #fff;
+}
+
+tr:hover .ms-td-viewer {
+    background-color: #f2f9ff;
+}
+tbody .ms-td-wiget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: none;
+    position: sticky;
+    right: 30px;
+    z-index: 2;  background-color: #fff;
+    border-left: 1px dotted #c7c7c7;
+}
+
+.ms-td-viewer{
+    height: 44px;
+    padding: 0 10px;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px dotted #c7c7c7;
+}
+
+.table__paging--right{
+    position: sticky;
+    right: 60px;
+
+
+}
+
+tbody tr {
+    cursor: pointer;
+  }
+
+ tbody tr:hover{
+    background-color:#e5f3ff ;
+  }
+
+  .dropdown-title p{
+    color: #0075FF;
+    font-weight: 600;
+  }
